@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+  <container-descriptor>
+    <prefer-web-inf-classes>false</prefer-web-inf-classes>
+   <prefer-application-packages>
+	   <package-name>org.apache.commons.*</package-name>
+      <package-name>org.apache.poi.*</package-name>
+	   <package-name>org.springframework.*</package-name>
+	  <package-name>org.slf4j.*</package-name>
+	  <package-name>com.fasterxml.jackson.*</package-name>
+    </prefer-application-packages>
+     <prefer-application-resources>
+      <resource-name>org.apache.commons.*</resource-name>
+      <resource-name>org.apache.poi.*</resource-name>
+	   <resource-name>org.springframework.*</resource-name>
+	  <resource-name>org.slf4j.*</resource-name>
+	  <resource-name>com.fasterxml.jackson.*</resource-name>
+    </prefer-application-resources>
+  </container-descriptor>
+    <context-root>FILEAPI</context-root>
+</weblogic-web-app>
